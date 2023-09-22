@@ -41,7 +41,7 @@ function Home(props) {
   return (
     <div className="home">
       <Banner
-        name="Joshua Bitton"
+        name="abubakar Saddiq"
         hr={true}
         html={bannercont.html}
         height="100vh"
