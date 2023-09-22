@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import "./styles.css";
+import ContextAppProvider from "./ContextAPI";
+import Body from "./Components/Body/Body";
+import { BrowserRouter as Router } from "react-router-dom";
+import AOS from "aos";
 
-function App() {
+export default function App() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ContextAppProvider>
+        <>
+          <Body />
+        </>
+      </ContextAppProvider>
+    </Router>
   );
 }
-
-export default App;
