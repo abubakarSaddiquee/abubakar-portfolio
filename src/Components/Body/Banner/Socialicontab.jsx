@@ -1,5 +1,4 @@
-import React, { useContext } from 'react'
-import { ContextApp } from '../../../ContextAPI'
+import React from 'react'
 import { socialicons } from '../../Appconstant'
 import Icon from '../../Reuseable/Icon/Icon'
 import Mappedarray from '../Mappedarray/Mappedarray'

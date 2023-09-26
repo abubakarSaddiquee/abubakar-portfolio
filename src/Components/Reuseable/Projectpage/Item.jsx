@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Item(props) {
-  const {title, text, array} = props
+  const {title, text} = props
   return (
     <div className="item">
       <small className="graytext">

@@ -2,7 +2,7 @@ import React from 'react'
 import Iconbox from '../../Reuseable/Icon/Iconbox'
 
 function Bar(props) {
-  const {text, percent, skill, icon} = props.bar
+  const { percent, skill, icon} = props.bar
   return (
   <div className="bar">
       <strong className='flexrow'>

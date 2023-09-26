@@ -1,5 +1,4 @@
-import React, { useContext, useState } from 'react'
-import { ContextApp } from '../../../ContextAPI'
+import React from 'react'
 import { services } from '../../Appconstant'
 import Card from '../../Reuseable/Card/Card'
 import './Featuressection.css'

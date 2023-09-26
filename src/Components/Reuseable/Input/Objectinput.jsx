@@ -5,7 +5,7 @@ import './Input.css'
 function Objectinput(props) {
   const {
     value, setValue, 
-    copy, type='text',
+    type='text',
     disabled=false, icon='',
     text, placeholder,
     readonly=false,

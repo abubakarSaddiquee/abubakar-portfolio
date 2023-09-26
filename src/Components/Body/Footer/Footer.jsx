@@ -1,10 +1,8 @@
-import React, { useContext } from "react";
-import { HashLink as Link } from "react-router-hash-link";
+import React from "react";
 import Columns from "./Columns";
 import "./Footer.css";
 import Icon from "../../Reuseable/Icon/Icon";
 import {
-  linksfooter,
   contactboxes,
   services,
   socialicons,

@@ -1,5 +1,4 @@
 import React from "react";
-import Typist from "react-typist";
 import Typewriter from "typewriter-effect";
 
 function Typeonload(props) {

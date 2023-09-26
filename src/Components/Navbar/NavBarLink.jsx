@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { useLocation } from 'react-router-dom'
+import React from 'react'
 import { NavHashLink } from 'react-router-hash-link'
 import Dropdown from './Dropdown/Dropdown'
-import { CSSTransition } from 'react-transition-group'
+
 
 function NavBarLink(props) {
   const {link, clickEvent} = props

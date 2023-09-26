@@ -1,11 +1,11 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Charts from "react-apexcharts"
 import './Chart.css'
 const Donut = (props) => {
   
   const {series, title, colors} = props
-  const [seriesd, setSeriesd] = useState([23, 3,2])
-  const [options, setOptions] = useState({
+  const [seriesd] = useState([23, 3,2])
+  const [options] = useState({
     series: series.series,
     labels: series.labels,
     legend:{

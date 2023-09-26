@@ -5,7 +5,7 @@ import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { addNotification } from '../../Appfunctions';
 import { ContextApp } from '../../../ContextAPI';
 import Tooltip from '@material-ui/core/Tooltip';
-import { withStyles, makeStyles } from '@material-ui/core/styles';
+import { withStyles } from '@material-ui/core/styles';
 import Fade from '@material-ui/core/Fade';
 import { HashLink  as Link} from 'react-router-hash-link';
 import Textarrow from '../Textarrow/Textarrow';

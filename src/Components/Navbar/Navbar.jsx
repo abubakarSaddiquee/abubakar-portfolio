@@ -4,8 +4,6 @@ import Logo from '../Reuseable/Logo/Logo'
 import NavBarLink from './NavBarLink'
 import './Navbar.css'
 import { ContextApp } from '../../ContextAPI'
-import { HashLink as Link } from 'react-router-hash-link'
-import Themebtn from '../Reuseable/Button/Themebtn'
 import AppButton from '../Reuseable/Button/Button'
 function Navbar(props){
   const {links} = props

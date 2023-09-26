@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import Banner from "../Banner/Banner";
 import "./Contact.css";
 import Card from "../../Reuseable/Card/Card";
 import { contactboxes, contactinputs } from "../../Appconstant";

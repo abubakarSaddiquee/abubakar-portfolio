@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useRef, useContext } from 'react'
-import Bannerprops from '../../Body/Banner/Bannerprops'
+import React, { useState, useContext } from 'react'
 import Apexchart from '../Apexchart/Apexchart'
 import Donut from '../Apexchart/Donut'
 import Motiondiv from '../Motiondiv/Motiondiv'
@@ -8,7 +7,6 @@ import Projectbanner from './Projectbanner'
 import './Projectpage.css'
 import { CSSTransition } from "react-transition-group";
 import ScrollContainer from 'react-indiana-drag-scroll';
-import Input from '../Input/Input'
 import {CopyToClipboard} from 'react-copy-to-clipboard';
 import { addNotification } from '../../Appfunctions'
 import { ContextApp } from '../../../ContextAPI'
@@ -16,7 +14,7 @@ import AppButton from '../Button/Button'
 
 
 const  Projectpage = (props) => {
-  const [project, setProject] = useState(props.project)
+  const [project] = useState(props.project)
   const [modal, setModal] = useState(false)
   const [img, setImg] = useState('')
   const [zoom, setZoom] = useState(100)

@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from './Icon'
 
 function Rippleicon(props) {
-  const {icon, clickEvent, size} = props
+  const {icon, clickEvent} = props
   return <Button 
           onClick={()=>clickEvent && clickEvent()}
           style={{width: 'initial', padding: '0', borderRadius: '50%', height: 'initial', minWidth: 'initial'}}
