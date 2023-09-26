@@ -169,10 +169,6 @@ export const links = [
         text: "Mobile Apps",
       },
       {
-        link: "hybrid",
-        text: "Hybrid",
-      },
-      {
         link: "all",
         text: "All",
       },
@@ -274,12 +270,6 @@ export const bars = [
 ];
 export const services = [
   {
-    text: "Powerful, simple and modern websites!",
-    title: "Web Design",
-    icon: "fad fa-browser",
-    link: "/services",
-  },
-  {
     text: "Websites are made with   love and creativity!",
     title: "Creativity",
     icon: "fad fa-pencil-paintbrush",
@@ -298,20 +288,9 @@ export const services = [
     link: "/services",
   },
   {
-    text: "Designs made with you in mind! ",
-    title: "Stunning Design",
-    icon: "fad fa-layer-group",
-    link: "/services",
-  },
-  {
     text: "Clear, neat and organized code!",
     title: "Organization",
     icon: "fad fa-broom",
-    link: "/services",
-  },
-  {
-    title: "More!",
-    icon: "fad fa-th",
     link: "/services",
   },
 ];

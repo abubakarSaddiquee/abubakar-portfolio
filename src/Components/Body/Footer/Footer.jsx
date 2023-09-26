@@ -38,8 +38,8 @@ function Footer(props) {
         },
         {
           text: "Dribbble",
-          icon: "fab fa-dribbble",
-          link: "https://dribbble.com/",
+          icon: "fab fa-linkedin",
+          link: "https://linkedin.com/",
         },
       ],
       blank: true,
